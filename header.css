@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.background {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
+.navigation {
+    position: absolute;
+    right: 32px;
+    top: 25px;
+    font-size: 28px;
+}
+.navitem {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+    background-color: rgba(148, 8, 8);
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+}
+.navitem:hover {
+    text-decoration: underline;
+}
+h1{
+    position: absolute;
+    top: 250px;
+    left: 90px;
+    color: white;
+    font-size: 90px;
+    text-shadow: 5px 5px 5px black;
+    width: 30%;
+}
+span{
+    color: rgb(148, 8, 8);
+}
