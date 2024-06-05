@@ -28,7 +28,7 @@ body{
 }
 h1{
     position: absolute;
-    top: 250px;
+    top: 150px;
     left: 90px;
     color: white;
     font-size: 90px;
@@ -37,4 +37,41 @@ h1{
 }
 span{
     color: rgb(148, 8, 8);
+}
+@media(max-width: 900px){
+    h1{
+        font-size: 70px;
+        top: 200px;
+        left: 50px;
+    }
+    .navigation {
+        position: absolute;
+        right: 33px;
+        top: 30px;
+        font-size: 20px;
+    }
+    .navitem {
+        color: white;
+        text-decoration: none;
+        margin-left: 8px;
+
+    }
+}
+@media(max-width: 400px){
+    h1{
+        font-size: 50px;
+        top: 200px;
+        left: 50px;
+    }
+    .navigation {
+        right: 7px;
+        top: 15px;
+        font-size: 12px;
+    }
+    .navitem {
+        color: white;
+        text-decoration: none;
+        margin-left: 3px;
+
+    }
 }
